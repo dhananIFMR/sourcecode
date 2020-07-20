@@ -1,0 +1,230 @@
+Question Codes for LEAD/GAME study on COVID-19's impact on Microenterprises,
+,
+A1,Owner
+,Yes
+,No
+,
+A2,Gender
+,Male
+,Female
+,
+A3,Business Status During Lockdown
+,Fixed Store/ Shop
+,Online Business
+,Roaming
+,Home based business
+,Village enterprise
+,Small manufacturing plant
+,Other
+,
+A4,Category of Business
+,Essential 
+,Non Essential
+,
+A5,Business Registration
+,Yes
+,No
+,
+A6,Business Status During Lockdown
+,Fully Operational 
+,Partly Operational 
+,Fully Shut 
+,
+A7,Challenges in operation 
+1,Low sales
+2,Supply or raw material shortage 
+3,Distribution logistics issues 
+4,Labour shortage 
+5,Customer credit issues
+6,Supplier credit issues
+7,"No access to third party finance (banks, MFIs, moneylenders)"
+8,No challenges
+-888,Others
+"Responses above are multiple choice, responded to only by those partly or fully operational",
+,
+A8,Average no. of full-time employees before lockdown
+,
+A9,Average no. of part-time employees before lockdown
+,
+B1,Business performance compared expectation in a no-lockdown scenario
+,Better than expected
+,Worse than expected
+,Same as expected
+,
+B2,"If your business is running, Percentage of sales/revenue are you getting as compared with no-lockdown period"
+,
+B3,Impact on profit
+,Increased
+,Decreased
+,Remained the same
+Responded to only by those partly or fully operational,
+B4,How much cash reserves do you currently have?
+,Don't have any cash reserves
+,Enough to survive 1 month
+,Enough to survive 2 months
+,Enough to survive 3 months or more
+,1-2 weeks
+,Others
+,
+B5,Did you try borrowing to cover expenses?
+,Yes
+,No
+,
+B5.1,Were you able to secure a loan?
+,Yes
+,No
+,
+B5.2,Where did you get the loan from? (multiple choice)
+,Family 
+,Friends 
+,"Informal channel (money lender, pawn shop,etc) "
+,"Financial Institution (Bank, MFI, Digital lender) "
+,
+B6,Did you dip into your savings
+,Yes
+,No
+,
+B6.1,Average amount of cash dipped into from savings (in Rs)
+,
+B7,Payment to suppliers this month
+,Yes full payment
+,Partial payment
+,No
+,No supplier payments pending
+,Refuse to Answer
+,Do Not Know
+,
+B8,Payment to suppliers next month
+,Yes full payment
+,Partial payment
+,No
+,No supplier payments pending
+,Refuse to Answer
+,Do Not Know
+,
+B9,Are you getting paid by your customers
+,Yes
+,"Yes, but with delay"
+,Only partially
+,No
+,No customers due to lockdown
+,
+B10,Were employees laid off?
+,Yes
+,No
+,"No, but not able to pay them"
+,
+B10.1,Average no. of workers laid off temporary
+,
+B10.2,Average no. of workers laid off permanently
+,
+B11,Did you postpone any loan repayment due to cash crunch?
+,Yes
+,No
+,No loan
+,
+C1,Confidence in business recovery
+,Fully confident
+,Somewhat confident
+,Not confident
+,Will close the business
+,
+C2,Coping strategies adopted (multiple choice)
+,Pricing strategies (increase prices)
+,Scale down business
+,"Marketing & distribution strategies (e.g., home delivery, online platforms) "
+,"New products (e.g., essential goods)"
+,Offering credit 
+,New line of business (leveraging existing assets of customer base)
+,"New technologies (e.g., moved to online payments) "
+,Other
+,None
+"Responses above are multiple choice, responded to only by those fully or somewhat or not confident",
+,
+C3,Expected time of business recovery
+,There is no problem or business is doing better
+,0-3 months
+,4-6 months
+,> 6 months
+,Uncertain
+"Responses above are multiple choice, responded to only by those fully or somewhat or not confident",
+,
+C4,Intention to apply for relief 
+,Yes
+,No
+,Do not know any
+,
+F1,Are you the sole earner for the household?
+,Yes
+,No
+,
+F2,Percent share of the business in the household when there are other sources of income
+Responses above are not sole earner of the household.,
+,
+F3,Challenges in the household during lockdown (multiple choice)
+,Health issues 
+,Inter-household conflicts due to anxiety/depression/stress
+,"Access to essentials (food, medicines, etc.)"
+,"Unaffordable expenses (e.g., rent without income) "
+,Others
+,
+,
+F4,What takes up most of your time during the day during the lockdown period? (multiple choice)
+,Rank
+1,Housework
+2,Childcare & education
+3,Self education
+4,Care of elderly / parents
+5,Looking for jobs
+6,Leisure
+7,Voluteer work (helping others in the community) 
+8,Entertainment
+-888,Other (pls specify) 
+,
+G1 ,Use of digital payments
+,POS Device / POS
+,QR Code / QR
+,Net Banking/mobile banking (NEFT/IMPS/RTGS)
+,Mobile Wallets
+,UPI
+,USSD
+,I don’t use digital payments
+,
+G2,How long have you been using these digital payments for your business?
+,Less than a month
+,1 to 3 months
+,3-6 months
+,6-12 months
+,1-2 years
+,2-3 years
+,> 3 years
+,
+Respondent above are using digital payment *,
+,
+G3,"Overall, how do you think your usage of digital payments has changed during the lockdown?"
+,Increased
+,Decreased
+,Remained the same
+,Do Not Know
+,
+Respondent above are using the digital payment,
+,
+G4,For what purposes has your usage of digital payments changed during the lockdown?
+,Receive payments from customers
+,Make payments to suppliers
+,Make salary payments to employees
+,"Pay utility bills like rent, electricity etc"
+,No digital payment
+,Other(specify)
+,
+Respondent above are using the digital payment more than 3 month,
+,
+G5,Why do you think there has been a change in the use of digital payments?
+,Increased demand from customers
+,Increased demand from suppliers
+,To avoid touch during physical transaction
+,Non-availability of cash at bank branches/ ATMs
+,Easy to access
+,"Others, Specify"
+,
+Respondent above are using the digital payment more than 3 month,
