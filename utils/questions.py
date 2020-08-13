@@ -24,6 +24,7 @@ credit_questions = [
 household_challenges_questions = [
     "Are you the sole earner for the household?",
     "What household challenges did you face during the lockdown?",
+    "What are you primarily involved with in the day during lockdown?",
 ]
 employment_questions = [
     "Were employees laid off?",

@@ -89,6 +89,7 @@ def render_content(tab, state_filter, gender_filter, industry_filter, breakdown)
     elif tab == "credit":
         questions = credit_questions
     return make_charts_for_questions(
+        responses,
         raw_data,
         questions,
         state_filter,

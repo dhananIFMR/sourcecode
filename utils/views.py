@@ -90,7 +90,7 @@ def make_jumbotron(link_text, link_href):
                                         target="_blank",
                                     ),
                                     html.Span(
-                                        """ at Krea University seeks to capture the status of micro-enterprises in India during the COVID-19 crisis. Through a multidimensional survey of microbusinesses being conducted over six months, the study will capture key trends on the impact of the COVID crisis and government-mandated lockdowns on business livelihoods, employment, and the income of nano and microbusinesses.  Additionally, the survey will also provide reliable estimates on business and employment outcomes and gauge confidence levels of small businesses in the economy periodically.""",
+                                        """  seeks to capture the status of micro-enterprises in India during the COVID-19 crisis. Through a multidimensional survey of microbusinesses being conducted over six months, the study will capture key trends on the impact of the COVID crisis and government-mandated lockdowns on business livelihoods, employment, and the income of nano and microbusinesses.  Additionally, the survey will also provide reliable estimates on business and employment outcomes and gauge confidence levels of small businesses in the economy periodically.""",
                                         className="linklead",
                                     ),
                                     html.Br(className=""),
@@ -110,7 +110,7 @@ def make_jumbotron(link_text, link_href):
                              html.Div(
                                 children=[
                                     html.Span(
-                                        """ This collaborative study has been conducted by partnering with organisations across a wide range of spectrum such as financial institutions, development sector organisations, fintech startups among others. Some of our key sample partners include """,
+                                        """ This collaborative study has been conducted by partnering with organisations across a wide range of spectrum such as financial institutions, development sector organisations, fintech startups among others. Some of our key partners include """,
                                         className="linklead",
                                     ),
                                     html.A(
@@ -124,21 +124,21 @@ def make_jumbotron(link_text, link_href):
                                         target="_blank",
                                     ),
                                     html.A(
-                                        " MannDeshi",
+                                        " MannDeshi.",
                                         href="https://manndeshifoundation.org/",
                                         target="_blank",
                                     ),
                                     html.Span(
-                                        """  But we are looking to further expand the scope of our study and are thus inviting suggestions on including more partners in the survey. At the same time, we also look forward to receiving feedback as well as any additional inputs that you feel can make the survey better. Please click the below button to provide us feedback.""",
+                                        """  But we are looking to further expand the scope of our study and are thus inviting suggestions on including more partners in the survey. At the same time, we also look forward to receiving feedback as well as any additional inputs that you feel can make the survey better. Please click the below button to provide us feedback when you download the data.""",
                                         className="linklead",
                                     ),
                                     
                                 ],
                                 className="link-textrgt",
                             ),
-                           
+                            
                             html.Br(),
-                            html.P( html.A("Download the Dataset", href="https://docs.google.com/forms/d/e/1FAIpQLSdESdaQfiCLyENGsTMKTMf-D-e2BGKuTJQb_5x-tzmliimYlg/viewform",   target="_blank"), className="lead leadrgt"),
+                            html.P( html.A("Dataset Download", href="https://docs.google.com/forms/d/e/1FAIpQLSdESdaQfiCLyENGsTMKTMf-D-e2BGKuTJQb_5x-tzmliimYlg/viewform",   target="_blank"), className="lead leadrgt"),
                         ],
                         className="desbox",
                     ),
@@ -256,7 +256,7 @@ def index(responses, summary_table):
                 dbc.Col(
                     children=[                   
                         html.H3("Survey Methodology", className = "text-center"),
-                        html.P("""Our stratified, convenience sample was drawn from various sub-industries in manufacturing, services and trade to provide a sectoral representation of microbusinesses. The sample was selected from lists provided by partner organizations. The following regions and states will be covered in the survey: North India (Delhi, Haryana, Punjab, Uttar Pradesh), South India (Tamil Nadu), West India (Gujarat, Maharashtra, Rajasthan). The surveys were conducted telephonically in the area’s local language, and each survey took 18-25 minutes to administer""",
+                        html.P("""Our stratified, convenience sample was drawn from various sub-industries in manufacturing, services and trade to provide a sectoral representation of microbusinesses. The sample was selected from lists provided by partner organizations. The following regions and states will be covered in the survey: North India (Delhi, Haryana, Punjab, Uttar Pradesh), South India (Tamil Nadu), West India (Gujarat, Maharashtra, Rajasthan). The surveys were conducted telephonically in the area’s local language, and each survey took 18-25 minutes to administer.""",
                         className ="survey_txt"),
                             ],
                     className="paddzero"

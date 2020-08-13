@@ -1,6 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
+from utils.charts import make_bar
 
 colors = [
     "#005DA6",
@@ -130,6 +131,7 @@ def make_filters(unique_states, unique_type_of_industry, unique_genders):
 
 
 def make_charts_for_questions(
+    responses,
     data,
     questions,
     state_filter,
@@ -143,10 +145,16 @@ def make_charts_for_questions(
         "Gender": label_questions["Split of Business ownership by Gender"],
         "Essential/Non Essential": "our cat"
     }
+    #print(label_questions)
     children = []
     for question in questions:
+        #print(question)
         label = label_questions[question]
+        if label == 'f3':
+            fig = make_bar(responses, question)
+            children.append(dbc.Row(dbc.Col(children=[fig])))
         if label in data:
+            #print(label)
             filtered_df = data
             if state_filter:
                 filtered_df = filtered_df[filtered_df["State"].isin(state_filter)]
@@ -170,7 +178,7 @@ def make_charts_for_questions(
                     vsum = values.sum()
                     vsum = vsum if vsum else 1.0
                     raw_resp = list(values)
-                    raw_resp = ["Raw Responses=%d" % x for x in raw_resp]
+                    raw_resp = ["%d" % x for x in raw_resp]
                     values = [x / vsum * 100. for x in values]
                     t = ["%0.2f %%" % x for x in values]
                     data_list.append(
@@ -208,7 +216,7 @@ def make_charts_for_questions(
                 columns = list(freqs.index)
                 values = freqs.to_numpy()
                 raw_resp = list(values)
-                raw_resp = ["Raw Responses=%d" % x for x in raw_resp]
+                raw_resp = ["%d" % x for x in raw_resp]
                 vsum = values.sum()
                 vsum = vsum if vsum else 1.0
                 values = [x / vsum * 100. for x in values]

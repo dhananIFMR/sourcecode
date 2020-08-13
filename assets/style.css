@@ -302,7 +302,7 @@ div#tabs-example .tab--selected {
     margin: 1em auto;
 }*/
 .graphbox {
-    margin:2em 0em 0em 0em;
+    margin:0em 0em 0em 0em;
     padding: 0em;
 }
 
@@ -400,7 +400,36 @@ g.xaxislayer-above g.xtick text {
 
 }
 
-@media only screen and ( min-width: 1367px ) and ( max-width: 1919px ){
+
+
+@media only screen and ( min-width: 1601px ) and ( max-width: 1919px ){
+	
+	 .overview, .overviewtbl {
+        width: 1300px;
+    }
+	.container {
+    max-width: 1300px;
+}
+.filter_lbl {
+    width: 350px;
+}
+
+
+#table {
+    width: 75%;
+    margin: 0px auto;
+}
+#table th {
+    border-color: #0199D6!important;
+    width: 120px;
+    font-size: 15px
+}
+    
+}
+
+
+
+@media only screen and ( min-width: 1367px ) and ( max-width: 1600px ){
     
     .overview, .overviewtbl {
         width: 1300px;
@@ -409,7 +438,7 @@ g.xaxislayer-above g.xtick text {
     max-width: 1300px;
 }
 .filter_lbl {
-    width: 350px;
+    width: 250px;
 }
 
 

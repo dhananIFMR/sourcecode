@@ -18,7 +18,7 @@ def make_question_pie(responses, question):
     business_recovery_data_keys, business_recovery_data_values = zip(
         *business_recovery_data.items()
     )
-    unnormed_vals = ["Raw Responses=%d" % raw_vals[x] for x in business_recovery_data_keys]
+    unnormed_vals = ["%d" % raw_vals[x] for x in business_recovery_data_keys]
     data = [
         {
             "values": business_recovery_data_values,
@@ -88,7 +88,7 @@ def make_bar(responses, question, barmode="group", orientation="v"):
                     ]
     for i, key in enumerate(household_data.keys()):
         columns, values = zip(*household_data[key].items())
-        unnormed_vals = ["Raw Responses=%d" % unnormed[key][x] for x in columns]
+        unnormed_vals = ["%d" % unnormed[key][x] for x in columns]
         t = ["%0.2f %%" % x for x in values]
         if orientation == "h":
             columns, values = values, columns
@@ -117,6 +117,7 @@ def make_bar(responses, question, barmode="group", orientation="v"):
             "data": data_list,
             "layout": {
                 "title": {"text": question},
+                "legend": {"orientation": "h"},
                 "barmode": barmode,
                 "yaxis": {"title": "% of Responses"},
                 "xaxis": {"automargin": True}
